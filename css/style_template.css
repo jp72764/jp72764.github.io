@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    margin:0;
+    background-color: #222831;
+    color:#EEEEEE;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Nav Styles */
+nav {
+    display:flex;
+    flex-direction: row;
+    background-color: #393E46;
+    color:#EEEEEE;
+    border: 5px solid #222831;
+    width:100%;
+    text-align:right;
+    
+    
+}
+
+
+nav p, nav a {
+   
+    
+
+}
+
+nav a {
+    margin-left:1479px;
+    color:#EEEEEE;
+
+}
+
+nav a:hover {   
+   
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px ;
+    color:#EEEEEE;
+    background-color:#393E46;
+    padding: 10px;
+   
+    
+    
+}
+
+
+footer a {
+    color:#EEEEEE;
+    margin-left:1em;
+}
+
+footer a:hover {
+    font-size: 125%;
+
+
+}
+
+/* Splash Section */
+.splash {}
+
+.splash h1 {
+    font-family: "Baskervville SC", serif;
+    font-size: 150%;
+    font-weight:bold;
+    
+}
+
+.splash img {
+    border-radius:150%;
+    border: solid #00ADB5;
+    
+
+}
+.address {
+    color:#EEEEEE;
+    
+}
+.splash p {
+    font-style:oblique;
+    
+    
+}
+
+/* Horizontal Rules */
+hr {
+    border-top: solid;
+    border-color:#222831;
+    border-width: 2px;
+    
+}
+
+/* Sections */
+section {
+    
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Baskervville SC", serif;
+    font-size: 130%;
+    color:#00ADB5;
+    font-weight:bold;
+    text-decoration:underline;
+}
+section h3 {
+    font-family: "Baskervville SC", serif;
+    font-size: 110%;
+    color:#00ADB5;
+    
+}
+/* Paragraph Styles */
+section p {
+    color:#EEEEEE;
+}
+
+/* link styles */
+section a {
+    color:#EEEEEE;
+    text-decoration:none;
+}
+section a:hover {
+    font-size:105%;
+    font-style:italic;
+}
+
+/* List Styles */
+ul {
+    list-style-type:square;
+    
+
+}
+
+dl {
+    display: grid;
+    grid-gap:4px 16px;
+    grid-template-columns:max-content;
+}
+dl dt{
+    font-weight:bold;
+    margin-left:20px;
+}
+dl dd{
+    margin-left:10%;
+    grid-column-start:2;
+}
+
+/* Project Section */
+.three-col {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:10px;
+    border-color:#00ADB5;
+    margin:10px;
+    margin-bottom:100px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    background-color:#393E46;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.card hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    width:100%;
+    height:200px;
+    object-fit:fill;
+   
+}
+
+.card h3 {
+    text-wrap:inherit;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: grid;
+    grid-template-columns: 400px;;
+    align-content:center;
+    justify-content:center;
+    
+
+}
+
+form {
+   margin-bottom:320px;
+    
+}
+
+form input, form textarea {
+    
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+    
+}
+
+form button:hover {
+    color:#EEEEEE;
+    background-color: #00ADB5;
+}
